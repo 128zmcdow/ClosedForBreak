@@ -22,3 +22,59 @@ body {
     left: 45%;
     color: #fff;
 }
+
+.lines {
+    position: relative;
+    top: 150px;
+    background-color: #ccc;
+}
+
+.lines::before {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 2px;
+    left: 7%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(119deg);
+}
+
+.lines::after {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 2px;
+    right: 13%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(-119deg);
+}
+
+.banner:hover {
+    transform: rotate(-10deg);
+}
+
+.banner img {
+    width: 80px;
+    position: absolute;
+    right: -38px;
+    top: -40px;
+    transform: rotate(20deg);
+}
+
+.regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.berkshire {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #b8b8b8;
+}
+
