@@ -78,3 +78,23 @@ body {
   background: #b8b8b8;
 }
 
+.closed h1 {
+    background-color: #ccc;
+    width: 300px;
+    padding: 5px 0;
+    margin-bottom: 18px;
+    font-family: "Berkshire Swash", serif;
+}
+
+.closed p, .closed h2 {
+    background-color: #fff;
+    width: 300px;
+    font-size: 35px;
+    line-height: .02;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+.closed p {
+    font-size: 15px;
+    font-weight: 100px;
+}
